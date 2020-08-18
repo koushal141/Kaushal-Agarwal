@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+}
+header{
+    background-image: url(../img/bgi.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+header img{
+    float: left;
+    width: 380px;
+    padding-top: 100px;
+    padding-left: 30px;
+    
+}
+header h1{
+    color: white;
+    float: right;
+    font-size: 80px;
+    padding-right: 120px;
+    padding-top: 220px;
+
+}
+main h2{
+    font-size: 40px;
+    padding-left: 30px;
+}
+main p{
+    font-size: 20px;
+    padding-left: 30px;
+
+}
+.cover {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 20px;
+  }
+  footer{
+      background-color: black;
+  }
+  footer p{
+      color: white;
+  }
